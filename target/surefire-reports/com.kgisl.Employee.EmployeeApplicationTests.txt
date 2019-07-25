@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.kgisl.Employee.EmployeeApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.46 s - in com.kgisl.Employee.EmployeeApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.293 s - in com.kgisl.Employee.EmployeeApplicationTests
