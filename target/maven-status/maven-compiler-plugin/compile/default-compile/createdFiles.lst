@@ -1,0 +1,6 @@
+com\kgisl\Employee\service\EmployeeServiceImp.class
+com\kgisl\Employee\repository\EmployeeRepository.class
+com\kgisl\Employee\controller\EmployeeController.class
+com\kgisl\Employee\service\EmployeeService.class
+com\kgisl\Employee\EmployeeApplication.class
+com\kgisl\Employee\model\Employee.class
