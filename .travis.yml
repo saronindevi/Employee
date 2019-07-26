@@ -11,4 +11,4 @@ addons:
 sonarcloud:
   organization: employee
   token:
-    secure: 931f73e5a126c0c3a3825773b18e2fbaa4107b80
+    secure: 1b1dbfc0d0f35c86e538ab49b5d5eee29716dbde
