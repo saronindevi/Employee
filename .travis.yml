@@ -7,6 +7,6 @@ script:
 - "./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar"
 addons:
 sonarcloud:
-  organization: codecovcloud
+  organization: employee1
   token:
-    secure: 311a62bf2f954c2a7ac13b197e0482938aa9c527
+    secure: 924a42b29f4e88f8231889218708e6cc5c2e6275
