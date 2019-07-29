@@ -1,6 +1,7 @@
 var app = new function () {
     var countries = [];
     var mode = "";
+   var url="https://employeedevi.herokuapp.com/api/Employees/";
     this.FetchAll = function () {
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
@@ -10,7 +11,7 @@ var app = new function () {
                 app.printtable();
             }
         };
-        xhttp.open("GET", "https://employeedevi.herokuapp.com/api/Employees/", true);
+        xhttp.open("GET", url, true);
         xhttp.send();
     };
     this.printtable = function () {
@@ -50,7 +51,7 @@ var app = new function () {
             // {"empid": 0, "empname": "TeamIndia"}
             var newTeam = { "empid": 0, "empname": name };
             alert(newTeam);
-            var url = "https://employeedevi.herokuapp.com/api/Employees/";
+            // var url = "https://employeedevi.herokuapp.com/api/Employees/";
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
                 if (xhr.readyState == 4 && xhr.status == "200") {
@@ -67,7 +68,7 @@ var app = new function () {
             // alert("empid" + empid + "empname " + empname);
             var updateTeam = { "empid": 0, "empname": name };
             alert(updateTeam);
-            var url = "https://employeedevi.herokuapp.com/api/Employees/";
+            // var url = "https://employeedevi.herokuapp.com/api/Employees/";
             var xhr = new XMLHttpRequest();
             xhr.onload = function () {
                 if (xhr.readyState == 4 && xhr.status == "200") {
