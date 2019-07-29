@@ -14,11 +14,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Employee</name>
 	<description>Demo project for Spring Boot</description>
-
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-
 	<profiles>
 		<profile>
 			<id>integration</id>
@@ -42,7 +40,6 @@
 			</properties>
 		</profile>
 	</profiles>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -52,7 +49,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -75,9 +71,7 @@
     <artifactId>springfox-swagger-ui</artifactId>
     <version>2.0.2</version>
 </dependency>
-
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
